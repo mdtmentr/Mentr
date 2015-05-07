@@ -1,0 +1,935 @@
+
+/* Begin CSS for FirstPage */
+#Firstpage {
+
+  min-height: 480px;
+
+  overflow-y: auto;
+
+}
+
+
+#Firstpage #picture_field0 {
+
+  margin-top: 0px;
+
+  margin-right: 0px;
+
+  margin-bottom: 0px;
+
+  margin-left: 0px;
+
+  z-index: 4;
+
+}
+#Firstpage #picture_field0 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 280px;
+
+}
+
+#Firstpage #button1 {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 10px;
+
+  margin-left: 10px;
+
+  z-index: 2;
+
+}
+#Firstpage #button1 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 10px;
+
+  padding-bottom: 0px;
+
+  padding-left: 10px;
+
+  width: 100%;
+
+}
+
+#Firstpage #button2 {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 10px;
+
+  margin-left: 10px;
+
+  z-index: 1;
+
+}
+#Firstpage #button2 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 10px;
+
+  padding-bottom: 0px;
+
+  padding-left: 10px;
+
+  width: 100%;
+
+}
+
+/* End CSS for FirstPage */
+
+/* Begin CSS for RegisterModal */
+#Registermodal {
+
+  min-height: 480px;
+
+  overflow-y: auto;
+
+}
+
+
+#Registermodal #text_field0 {
+
+  margin-top: 10px;
+
+  margin-right: 0px;
+
+  margin-bottom: 10px;
+
+  margin-left: 0px;
+
+  z-index: 11;
+
+}
+#Registermodal #text_field0 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 318px;
+
+}
+
+#Registermodal #Password_Reg {
+
+  margin-top: 10px;
+
+  margin-right: 0px;
+
+  margin-bottom: 10px;
+
+  margin-left: 0px;
+
+  z-index: 10;
+
+}
+#Registermodal #Password_Reg > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 318px;
+
+}
+
+#Registermodal #Email_Reg {
+
+  margin-top: 10px;
+
+  margin-right: 0px;
+
+  margin-bottom: 10px;
+
+  margin-left: 0px;
+
+  z-index: 7;
+
+}
+#Registermodal #Email_Reg > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 318px;
+
+}
+
+#Registermodal #FirstName_Reg {
+
+  margin-top: 10px;
+
+  margin-right: 0px;
+
+  margin-bottom: 10px;
+
+  margin-left: 0px;
+
+  z-index: 6;
+
+}
+#Registermodal #FirstName_Reg > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 318px;
+
+}
+
+#Registermodal #LastName_Reg {
+
+  margin-top: 10px;
+
+  margin-right: 0px;
+
+  margin-bottom: 10px;
+
+  margin-left: 0px;
+
+  z-index: 5;
+
+}
+#Registermodal #LastName_Reg > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 318px;
+
+}
+
+#Registermodal #Location_Reg {
+
+  margin-top: 10px;
+
+  margin-right: 0px;
+
+  margin-bottom: 10px;
+
+  margin-left: 0px;
+
+  z-index: 4;
+
+}
+#Registermodal #Location_Reg > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 318px;
+
+}
+
+#Registermodal #Industry_Reg {
+
+  margin-top: 10px;
+
+  margin-right: 0px;
+
+  margin-bottom: 10px;
+
+  margin-left: 0px;
+
+  z-index: 3;
+
+}
+#Registermodal #Industry_Reg > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 318px;
+
+}
+
+#Registermodal #Register {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 10px;
+
+  margin-left: 10px;
+
+  z-index: 9;
+
+}
+#Registermodal #Register > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 10px;
+
+  padding-bottom: 0px;
+
+  padding-left: 10px;
+
+  width: 100%;
+
+}
+
+#Registermodal #button8 {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 10px;
+
+  margin-left: 10px;
+
+  z-index: 0;
+
+}
+#Registermodal #button8 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 10px;
+
+  padding-bottom: 0px;
+
+  padding-left: 10px;
+
+  width: 100%;
+
+}
+
+/* End CSS for RegisterModal */
+
+/* Begin CSS for Register */
+#Register {
+
+  min-height: 480px;
+
+  overflow-y: auto;
+
+}
+
+
+#Register #text_field0 {
+
+  margin-top: 10px;
+
+  margin-right: 0px;
+
+  margin-bottom: 10px;
+
+  margin-left: 0px;
+
+  z-index: 3;
+
+}
+#Register #text_field0 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 318px;
+
+}
+
+#Register #text_field1 {
+
+  margin-top: 10px;
+
+  margin-right: 0px;
+
+  margin-bottom: 10px;
+
+  margin-left: 0px;
+
+  z-index: 2;
+
+}
+#Register #text_field1 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 318px;
+
+}
+
+#Register #text_field2 {
+
+  margin-top: 10px;
+
+  margin-right: 0px;
+
+  margin-bottom: 10px;
+
+  margin-left: 0px;
+
+  z-index: 1;
+
+}
+#Register #text_field2 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 318px;
+
+}
+
+#Register #button3 {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 10px;
+
+  margin-left: 10px;
+
+  z-index: 0;
+
+}
+#Register #button3 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 10px;
+
+  padding-bottom: 0px;
+
+  padding-left: 10px;
+
+  width: 100%;
+
+}
+
+/* End CSS for Register */
+
+/* Begin CSS for Kimono */
+#Kimono {
+
+  min-height: 480px;
+
+  overflow-y: auto;
+
+}
+
+
+#Kimono #picture_field0 {
+
+  margin-top: 10px;
+
+  margin-right: 0px;
+
+  margin-bottom: 10px;
+
+  margin-left: 0px;
+
+  z-index: 6;
+
+}
+#Kimono #picture_field0 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 320px;
+
+}
+
+#Kimono #button1 {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 10px;
+
+  margin-left: 10px;
+
+  z-index: 5;
+
+}
+#Kimono #button1 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 10px;
+
+  padding-bottom: 0px;
+
+  padding-left: 10px;
+
+  width: 100%;
+
+}
+
+#Kimono #text2 {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 10px;
+
+  margin-left: 10px;
+
+  z-index: 4;
+
+}
+#Kimono #text2 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 295px;
+
+}
+
+#Kimono #text3 {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 10px;
+
+  margin-left: 10px;
+
+  z-index: 3;
+
+}
+#Kimono #text3 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 295px;
+
+}
+
+#Kimono #text4 {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 10px;
+
+  margin-left: 10px;
+
+  z-index: 2;
+
+}
+#Kimono #text4 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 295px;
+
+}
+
+#Kimono #Mentor Me  {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 10px;
+
+  margin-left: 10px;
+
+  z-index: 0;
+
+}
+#Kimono #Mentor Me  > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 10px;
+
+  padding-bottom: 0px;
+
+  padding-left: 10px;
+
+  width: 100%;
+
+}
+
+/* End CSS for Kimono */
+
+/* Begin CSS for LoginPage */
+#Loginpage {
+
+  min-height: 480px;
+
+  overflow-y: auto;
+
+}
+
+
+#Loginpage #picture_field4 {
+
+  margin-top: 0px;
+
+  margin-right: 0px;
+
+  margin-bottom: 0px;
+
+  margin-left: 0px;
+
+  z-index: 0;
+
+}
+#Loginpage #picture_field4 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 320px;
+
+}
+
+#Loginpage #Login_User {
+
+  margin-top: 10px;
+
+  margin-right: 0px;
+
+  margin-bottom: 10px;
+
+  margin-left: 0px;
+
+  z-index: 4;
+
+}
+#Loginpage #Login_User > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 318px;
+
+}
+
+#Loginpage #Login_Password {
+
+  margin-top: 10px;
+
+  margin-right: 0px;
+
+  margin-bottom: 10px;
+
+  margin-left: 0px;
+
+  z-index: 3;
+
+}
+#Loginpage #Login_Password > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 318px;
+
+}
+
+#Loginpage #Login {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 10px;
+
+  margin-left: 10px;
+
+  z-index: 2;
+
+}
+#Loginpage #Login > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 10px;
+
+  padding-bottom: 0px;
+
+  padding-left: 10px;
+
+  width: 100%;
+
+}
+
+#Loginpage #button3 {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 10px;
+
+  margin-left: 10px;
+
+  z-index: 1;
+
+}
+#Loginpage #button3 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 10px;
+
+  padding-bottom: 0px;
+
+  padding-left: 10px;
+
+  width: 100%;
+
+}
+
+/* End CSS for LoginPage */
+
+/* Begin CSS for MatchPage */
+#Matchpage {
+
+  min-height: 480px;
+
+  overflow-y: auto;
+
+}
+
+
+#Matchpage #picture_field1 {
+
+  margin-top: 10px;
+
+  margin-right: 0px;
+
+  margin-bottom: 0px;
+
+  margin-left: 0px;
+
+  z-index: 1;
+
+}
+#Matchpage #picture_field1 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 60px;
+
+  width: 280px;
+
+}
+
+#Matchpage #title0 {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 10px;
+
+  margin-left: 10px;
+
+  z-index: 2;
+
+}
+#Matchpage #title0 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 295px;
+
+}
+
+#Matchpage #text2 {
+
+  margin-top: 10px;
+
+  margin-right: 10px;
+
+  margin-bottom: 10px;
+
+  margin-left: 10px;
+
+  z-index: 0;
+
+}
+#Matchpage #text2 > *:first-child {
+
+  padding-top: 0px;
+
+  padding-right: 0px;
+
+  padding-bottom: 0px;
+
+  padding-left: 0px;
+
+  width: 295px;
+
+}
+
+/* End CSS for MatchPage */
+
+
+div#global-spinner-div {
+  display: none;
+}
+
+.global-blackout {
+  z-index: 9999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.7;
+}
+
+.global-modal-container {
+  z-index: 99999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.global-spinner-container {
+  position:absolute;
+  width:100px;
+  height:100px;
+  top:50%;
+  left:50%;
+  margin:-50px 0 0 -50px;
+  background-color: #eee;
+  opacity: 0.8;
+  display: -webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-box-pack: center;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-box-align: center;
+  -moz-box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+}
+
+.global-spinner-container .icon {
+  font-size: 40px;
+  line-height: 1;
+  width: 40px;
+  height: 40px;
+}

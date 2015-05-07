@@ -1,0 +1,36 @@
+<div ng-controller="LoginpageCtrl" id="Loginpage">
+
+<div id="picture_field4" ng-click="picture_field4Tap()">
+<img ng-src="http://i.imgur.com/2fvijCU.png"></img>
+
+</div>
+
+<div id="Login_User" ng-click="Login_UserTap()">
+<div class="list">
+  <label class="item item-input">
+    <input type="text" placeholder="Username" ng-model="Login_User.value">
+  </label>
+</div>
+</div>
+
+<div id="Login_Password" ng-click="Login_PasswordTap()">
+<div class="list">
+  <label class="item item-input">
+    <input type="text" placeholder="Password" ng-model="Login_Password.value">
+  </label>
+</div>
+</div>
+
+<div id="Login" ng-click="LoginTap()">
+<button class="button button-positive">
+  Login
+</button>
+</div>
+
+<div id="button3" ng-click="button3Tap()">
+<button class="button button-positive">
+  Cancel
+</button>
+</div>
+
+</div>

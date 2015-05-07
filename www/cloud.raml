@@ -1,0 +1,140 @@
+#%RAML 0.8
+title: Steroids Data
+mediaType: application/json
+baseUri: https://rest-api.appgyver.com/v1/
+
+traits:
+  - securedBySteroidsApiKey:
+      headers:
+        steroidsApiKey:
+          type: string
+          example: identificationhashgoeshere
+          default: 4791683752ba0ed034b6fe8a371ba4aa0f1138d346f5cdf6672432252863e246
+        steroidsAppId:
+          type: integer
+          example: 1234
+          default: 58095
+
+schemas:
+  - Mentors: '{"$schema":"http://json-schema.org/schema","title":"Mentors collection","type":"object","properties":{"results.collection1":{"type":"array","items":{"$schema":"http://json-schema.org/schema","type":"object","description":"The canonical Mentors representation","properties":{"city":{"type":"string"},"industry":{"type":"string"},"name":{"type":"object"},"photo":{"type":"object"},"title":{"type":"string"},"hash":{"type":"string"}},"required":[]}}}}'
+  - Mentor: '{"$schema":"http://json-schema.org/schema","type":"object","description":"The canonical Mentors representation","properties":{"city":{"type":"string"},"industry":{"type":"string"},"name":{"type":"object"},"photo":{"type":"object"},"title":{"type":"string"},"hash":{"type":"string"}},"required":[]}'
+  - ApplicationUsers: '{"$schema":"http://json-schema.org/schema","title":"ApplicationUser collection","type":"object","properties":{"objects":{"type":"array","items":{"$schema":"http://json-schema.org/schema","type":"object","description":"The canonical ApplicationUser representation","properties":{"updated_at":{"type":"string"},"created_at":{"type":"string"},"location":{"type":"string"},"username":{"type":"string"},"email":{"type":"string"},"first_name":{"type":"string"},"last_name":{"type":"string"},"device_type":{"type":"string"},"ACL":{"type":"object"},"active":{"type":"boolean"},"tags":{"type":"array"},"updated_by":{"type":"string"},"created_by":{"type":"string"},"app_user_object_uid":{"type":"string"},"published":{"type":"boolean"},"uid":{"type":"string"},"__loc":{"type":"string"},"industry":{"type":"string"},"_version":{"type":"integer"}},"required":[]}}}}'
+  - ApplicationUser: '{"$schema":"http://json-schema.org/schema","type":"object","description":"The canonical ApplicationUser representation","properties":{"object":{"type":"object","properties":{"updated_at":{"type":"string"},"created_at":{"type":"string"},"location":{"type":"string"},"username":{"type":"string"},"email":{"type":"string"},"first_name":{"type":"string"},"last_name":{"type":"string"},"device_type":{"type":"string"},"ACL":{"type":"object"},"active":{"type":"boolean"},"tags":{"type":"array"},"updated_by":{"type":"string"},"created_by":{"type":"string"},"app_user_object_uid":{"type":"string"},"published":{"type":"boolean"},"uid":{"type":"string"},"__loc":{"type":"string"},"industry":{"type":"string"},"_version":{"type":"integer"}},"required":[]}}}'
+
+resourceTypes:
+  - kimono_collection:
+      usage: This resourceType should be used for any collection of items
+      is: [ securedBySteroidsApiKey ]
+      get:
+        description: |
+          {
+            "action": "collection"
+          }
+        responses:
+          200:
+            description: |
+              {
+                "rootKey": "results.collection1"
+              }
+            body:
+              application/json:
+                schema: <<resourcePathName>> # e.g cars
+
+  - built_io_collection:
+      usage: This resourceType should be used for any collection of items
+      is: [ securedBySteroidsApiKey ]
+      get:
+        description: |
+          {
+            "action": "collection"
+          }
+        responses:
+          200:
+            description: |
+              {
+                "rootKey": "objects"
+              }
+            body:
+              application/json:
+                schema: <<resourcePathName>> # e.g cars
+      post:
+        description: |
+          {
+            "action": "create",
+            "rootKey": "object"
+          }
+        body:
+          application/json:
+            schema: <<resourcePathName | !singularize>>
+        responses:
+          200:
+            description: |
+              {
+                "rootKey": "object"
+              }
+            body:
+              application/json:
+                schema: <<resourcePathName | !singularize>> # e.g. car
+
+  - built_io_member:
+      usage: This resourceType should be used for any built.io item
+      is: [ securedBySteroidsApiKey ]
+      get:
+        description: |
+          {
+            "action": "find"
+          }
+        responses:
+          200:
+            description: |
+              {
+                "rootKey": "object"
+              }
+            body:
+              application/json:
+                schema: <<resourcePathName>> # e.g. car
+      put:
+        description: |
+          {
+            "action": "update",
+            "rootKey": "object"
+          }
+        body:
+          application/json:
+            schema: <<resourcePathName | !singularize>>
+        responses:
+          200:
+            description: |
+              {
+                "rootKey": "object"
+              }
+            body:
+              application/json:
+                schema: <<resourcePathName>>
+      delete:
+        description: |
+          {
+            "action": "destroy"
+          }
+        responses:
+          200:
+
+
+/Mentors:
+  description: |
+    {
+      "resourceName": "Mentors"
+    }
+  type: kimono_collection
+  
+
+/ApplicationUser:
+  description: |
+    {
+      "resourceName": "ApplicationUser"
+    }
+  type: built_io_collection
+  /{id}:
+    type: built_io_member
+
+
